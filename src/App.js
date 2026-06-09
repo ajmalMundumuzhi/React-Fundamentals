@@ -10,7 +10,7 @@ import Count from './components/Count';
 function App() {
   return (
     <div className="App">
-      <Count />
+      {/* <Count /> */}
       {/* <Message /> */}
       {/* <FirstComponent />
       {/* <Hello /> */}
@@ -18,9 +18,9 @@ function App() {
       {/* <Greet name="Ajmal" superName="Spider Man"> */}
         {/* <p>This is children props</p> */}
       {/* </Greet> */}
-      {/* <Greet name="Muhammed" superName="Batman">
+      <Greet name="Muhammed" superName="Batman">
         <button>Action</button>
-      </Greet> */}
+      </Greet>
       
       {/* <Welcome name="Ajmal" superName="Spider Man" />
       <Welcome name="Muhammed" superName="Batman" /> */}
