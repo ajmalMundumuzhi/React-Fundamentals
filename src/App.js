@@ -7,11 +7,15 @@ import Greet from './components/Greet';
 import Message from './components/Message';
 import Count from './components/Count';
 import BindEvent from './components/BindEvent';
+import ParentComponent from './components/ParentComponent';
+import UserGreeting from './components/UserGreeting';
 
 function App() {
   return (
     <div className="App">
-      <BindEvent />
+      <UserGreeting />
+      {/* <ParentComponent /> */}
+      {/* <BindEvent /> */}
       {/* <Count /> */}
       {/* <Message /> */}
       {/* <FirstComponent />
