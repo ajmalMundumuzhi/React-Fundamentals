@@ -5,11 +5,13 @@ import Welcome from './components/Wekcome';
 import Hello from './components/Hello';
 import Greet from './components/Greet';
 import Message from './components/Message';
+import Count from './components/Count';
 
 function App() {
   return (
     <div className="App">
-      <Message />
+      <Count />
+      {/* <Message /> */}
       {/* <FirstComponent />
       {/* <Hello /> */}
 
