@@ -6,10 +6,12 @@ import Hello from './components/Hello';
 import Greet from './components/Greet';
 import Message from './components/Message';
 import Count from './components/Count';
+import BindEvent from './components/BindEvent';
 
 function App() {
   return (
     <div className="App">
+      <BindEvent />
       {/* <Count /> */}
       {/* <Message /> */}
       {/* <FirstComponent />
@@ -18,9 +20,9 @@ function App() {
       {/* <Greet name="Ajmal" superName="Spider Man"> */}
         {/* <p>This is children props</p> */}
       {/* </Greet> */}
-      <Greet name="Muhammed" superName="Batman">
+      {/* <Greet name="Muhammed" superName="Batman">
         <button>Action</button>
-      </Greet>
+      </Greet> */}
       
       {/* <Welcome name="Ajmal" superName="Spider Man" />
       <Welcome name="Muhammed" superName="Batman" /> */}
