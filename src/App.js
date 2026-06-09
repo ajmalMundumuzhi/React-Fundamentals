@@ -9,11 +9,13 @@ import Count from './components/Count';
 import BindEvent from './components/BindEvent';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
+import NameList from './components/NameList';
 
 function App() {
   return (
     <div className="App">
-      <UserGreeting />
+      <NameList />
+      {/* <UserGreeting /> */}
       {/* <ParentComponent /> */}
       {/* <BindEvent /> */}
       {/* <Count /> */}
